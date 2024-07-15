@@ -32,16 +32,38 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof name);
-console.log(typeof score);
-console.log(typeof scoreValue);
-console.log(typeof isLoggedIn);
-console.log(typeof outsideTemp);
-console.log(typeof userEmail);
-console.log(typeof id);
-console.log(typeof anotherId);
-console.log(id==anotherId);
-console.log(typeof bigNumber);
-console.log(typeof heros);
-console.log(typeof myObj);
-console.log(typeof myFunction);
+// console.log(typeof name);
+// console.log(typeof score);
+// console.log(typeof scoreValue);
+// console.log(typeof isLoggedIn);
+// console.log(typeof outsideTemp);
+// console.log(typeof userEmail);
+// console.log(typeof id);
+// console.log(typeof anotherId);
+// console.log(id==anotherId);
+// console.log(typeof bigNumber);
+// console.log(typeof heros);
+// console.log(typeof myObj);
+// console.log(typeof myFunction);
+
+
+//+++++++++++++++++++++++++++++++++++++
+// Stack (Primitive) Heap(Non Primitive)
+let mygithubProfileName="vikash Yadav";
+
+
+let anotherName=mygithubProfileName;
+    anotherName="Vikash"
+// console.log(mygithubProfileName);
+// console.log(anotherName);
+
+let firstUser={
+    name:"vikash",
+    email:"vikash@gmail.com",
+}
+let secondUser=firstUser;
+secondUser.email="anil@gmail.com";
+console.log(firstUser.email);
+console.log(secondUser.email);
+
+
